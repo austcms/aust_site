@@ -692,3 +692,1144 @@ Started GET "/" for 127.0.0.1 at 2011-08-21 22:28:53 -0300
   Processing by AustController#index as HTML
 Rendered aust/index.html.erb within layouts/application (6.2ms)
 Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 01:03:57 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/kurko/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:06:39 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:08:47 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:09:01 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:09:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:10:12 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:10:16 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:10:20 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:10:24 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:14:46 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:15:34 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:15:57 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:16:01 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:16:05 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:17:28 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:17:42 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:17:46 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:18:31 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:18:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:21:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:23:27 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:23:43 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:28:48 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:29:01 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:29:09 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:31:56 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:33:11 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:33:41 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:33:46 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:33:57 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:34:18 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:34:45 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:35:16 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:35:46 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:35:57 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:37:07 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:37:43 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:37:49 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:38:10 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:38:33 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:38:44 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:38:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:39:02 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:39:21 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:39:34 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:39:37 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:39:40 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:39:44 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:40:28 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:40:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:41:59 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:43:20 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:43:41 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:43:48 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:44:30 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:44:36 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:45:01 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:45:04 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:45:08 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:45:17 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:46:14 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:46:41 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:46:45 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:00 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:11 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:29 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:31 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:35 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:39 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:45 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:48 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:50 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:47:56 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:48:00 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:48:54 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:48:59 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:49:36 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:50:47 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:51:08 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:53:14 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:54:23 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:54:33 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:56:02 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:56:10 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:56:25 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:57:44 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:58:30 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:58:45 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:58:55 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:59:06 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:59:09 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:59:34 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:59:38 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 12:59:52 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:00:24 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:00:37 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:00:43 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:50:34 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:52:35 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:54:38 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:55:06 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:55:10 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:55:13 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:55:53 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:56:26 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:56:41 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:56:49 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:56:52 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:57:07 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:57:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:58:09 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:58:34 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:59:15 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:59:25 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:59:34 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:59:41 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 13:59:46 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:00:43 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:01:05 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:03:40 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:03:59 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:04:37 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:04:50 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:05:05 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:05:09 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:05:22 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:06:30 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:06:56 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:07:18 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:07:23 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:07:41 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:08:23 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:08:27 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:08:34 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:08:52 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:09:18 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:09:25 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:10:43 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:10:56 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:11:11 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:11:17 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:11:24 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:11:54 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:12:15 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:12:25 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:12:28 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:12:39 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:12:58 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:15:43 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:16:27 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:16:36 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:16:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:17:08 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:17:22 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:18:37 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:20:53 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:21:35 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:21:43 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:24:06 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:24:30 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:24:48 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:25:55 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:26:27 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:26:45 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:27:35 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:28:06 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:28:36 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:28:40 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:28:48 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:28:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:29:09 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:29:17 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:29:50 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:29:57 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:30:07 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:30:18 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:30:22 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 14:57:45 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (64.5ms)
+Completed 200 OK in 111ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:01:40 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:02:31 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:03:27 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:03:47 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:03:51 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:04:07 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:04:11 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:04:18 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:04:32 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:04:47 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:04:54 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-22 15:05:00 -0300
+  Processing by AustController#index as HTML
+Rendered aust/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)

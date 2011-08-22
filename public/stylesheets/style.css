@@ -5,8 +5,9 @@ body {
 #global {
 	width: 960px;
 	margin: 0 auto;
-	background: white;
+	background: #fafafa;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+	color: #333;
 }
 
 
@@ -28,9 +29,12 @@ body {
 
 /* main_page */
 
-	#merchan { display: table; width: 100%; }
+	#merchan { display: table; width: 100%; text-shadow: 1px 1px white; }
 
 		#merchan .text { float: left; width: 370px; margin: 15px 0 0 15px; }
+			#merchan .text li { color: #06588c; }
+			#merchan .text li span { color: #222; }
+
 		#merchan .image { float: right; width: 555px; margin: 25px 0 0 15px; }
 
 		#merchan .get_aust { width: 960px; display: table; clear: both; }
@@ -45,11 +49,15 @@ body {
 
 /* features */
 
-#features { display: table; background: #f1f0f0; padding: 15px 0 0 0; }
+	#features { display: table; background: #f1f0f0; padding: 15px 0 0 0;  text-shadow: 1px 1px #fcfcfc; }
+		#features h2 { margin: 0 0 25px 0; text-align: center; }
 
-#features .features_container { margin: 15px; width: 930px; display: table; }
+		#features .features_container { margin: 15px; width: 930px; display: table; }
+		#features .features_line { display: table; }
 
-#features .feature { width: 445px; margin: 0 10px 15px 10px; float: left; }
+		#features .feature { width: 445px; margin: 0 10px 15px 10px; float: left; }
 
-#features .feature .image { width: 120px; margin: 0 10px 0 0; float: left; }
-#features .feature .text { width: 315px; margin: 0 0px 0 0; float: left; }
+		#features .feature .image { width: 120px; margin: 0 10px 0 0; float: left; text-align: center; }
+		#features .feature .image span { margin-top: 25px; font-size: 4em; font-style: italic; color: #ddd; }
+		#features .feature .text { width: 315px; margin: 0 0px 0 0; float: left; }
+		#features .feature .text .header { font-weight: bold; margin: 0 0 2px 0; }
