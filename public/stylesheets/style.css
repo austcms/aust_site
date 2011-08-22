@@ -1,0 +1,55 @@
+body {
+	background: url('../images/body_background.jpg');
+}
+
+#global {
+	width: 960px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* header */
+
+	#header { min-height: 30px; clear: both; background: #f1f0f0; display: table; width: 100%; }
+		#header .logo { list-style: none; float: left; }
+		#header .logo a { margin: 15px; margin-left: 15px; display: table; }
+
+	#navigation {
+		float: right;
+		padding: 30px;
+	}
+		#navigation ul { list-style: none; }
+		#navigation ul li { display: inline; margin: 0 0 0 20px; }
+		#navigation ul li a { text-decoration: none; }
+		#navigation ul li a:hover { text-decoration: underline; }
+
+
+/* main_page */
+
+	#merchan { display: table; width: 100%; }
+
+		#merchan .text { float: left; width: 370px; margin: 15px 0 0 15px; }
+		#merchan .image { float: right; width: 555px; margin: 25px 0 0 15px; }
+
+		#merchan .get_aust { width: 960px; display: table; clear: both; }
+		#merchan .get_aust_container { margin: 15px; display: table; width: 930px; }
+		
+		#merchan .get_aust .news { float: left; width: 700px; }
+		#merchan .get_aust .download {
+			float: right; width: 230px; text-align: center; font-size: 0.9em;
+			color: #888;
+		}
+
+
+/* features */
+
+#features { display: table; background: #f1f0f0; padding: 15px 0 0 0; }
+
+#features .features_container { margin: 15px; width: 930px; display: table; }
+
+#features .feature { width: 445px; margin: 0 10px 15px 10px; float: left; }
+
+#features .feature .image { width: 120px; margin: 0 10px 0 0; float: left; }
+#features .feature .text { width: 315px; margin: 0 0px 0 0; float: left; }

@@ -1,0 +1,83 @@
+<div id="merchan">
+	
+	<div class="merchan_container">
+		<div class="text">
+			<h1>
+				Merchan
+			</h1>
+			<p>
+				Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+			</p>
+			<p>
+				<ul>
+					<li>CMS modular, gerenciamento de múltiplos-sites</li>
+					<li>Desacoplado da página principal (desenvolva seu site em qualquer linguagem e framework)</li>
+					<li>Conteúdo entregue via API JSON</li>
+					<li>Possui módulos para qualquer tipo de finalidade: textos, vídeos, imagens, arquivos, agenda, entre outros</li>
+					<li>Design focado no cliente</li>
+				</ul>
+			</p>
+		</div>
+		
+		<div class="image">
+			<%= image_tag 'merchan_aust.png' %>
+		</div>
+
+		<div class="get_aust">
+			<div class="get_aust_container">
+			<div class="news">
+				news
+			</div>
+			<div class="download">
+				<%= link_to image_tag('download_button.png'), '' %>
+				<br>
+				Beta
+			</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+</div>
+
+<div id="features">
+	<div class="features_container">
+	
+		<% 3.times { %>
+		<div class="feature">
+			<div class="feature_container">
+				<div class="image">
+					<%= image_tag 'logo.png' %>
+				</div>
+				<div class="text">
+					<div class="header">
+						Ornare Condimentum Magna
+					</div>
+					<div class="content">
+						Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="feature">
+			<div class="feature_container">
+				<div class="image">
+					<%= image_tag 'logo.png' %>
+				</div>
+				<div class="text">
+					<div class="header">
+						Ornare Condimentum Magna
+					</div>
+					<div class="content">
+						Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<% } %>
+
+	</div>
+</div>
