@@ -1,4 +1,4 @@
-<div id="merchan">
+<div id="merchan" class="main_section">
 	
 	<div class="merchan_container">
 		<div class="text">
@@ -7,7 +7,6 @@
 			</h1>
 			<p>
 				O Aust é um CMS com foco no conteúdo e no usuário.
-				
 			</p>
 			<p>
 				<ul>
@@ -15,16 +14,19 @@
 						<span>Gerencimento de múltiplos sites</span>
 					</li>
 					<li>
-						<span>Site principal acessa conteúdos via API JSON</span>
+						<span>Conteúdos acessíveis via API JSON (não SQL)</span>
 					</li>
 					<li>
-						<span>Sem framework de desenvolvimento (crie sites livremente em Ruby, PHP, Python ou outros)</span>
+						<span>Sem framework de desenvolvimento (crie sites em Ruby, PHP, Python ou outros)</span>
 					</li>
 					<li>
-						<span>Módulos para diferentes tipos de conteúdo: textos, vídeos, imagens, arquivos, agenda, entre outros</span>
+						<span>
+							Módulos para diferentes tipos de conteúdos:
+							textos, vídeos, imagens, arquivos, agenda, entre outros
+						</span>
 					</li>
 					<li>
-						<span>Design focado no cliente leigo</span>
+						<span>Design focado no cliente</span>
 					</li>
 					<li>
 						<span>Funciona normalmente em hospedagens compartilhadas (PHP 5.2+)</span>
@@ -63,11 +65,16 @@ O Aust não, ele é um CMS apenas, desacoplado da
 sua página principal, entregando conteúdo através de uma API
 -->
 <div id="features" class="main_section">
-	<div class="main_section">
+	<div class="main_section_container">
 		
-		<h2>
-			10 motivos para usar
-		</h2>
+		<div class="section_header">
+			<h2>
+				Vantagens
+			</h2>
+			<p>
+				10 motivos para usar o Aust
+			</p>
+		</div>
 		<div class="features_line">
 			<div class="feature">
 				<div class="feature_container">
@@ -291,6 +298,60 @@ sua página principal, entregando conteúdo através de uma API
 		
 		<h2>
 			Documentação
+		</h2>
+		<p>
+			A documentação disponível até o momento:
+		</p>
+		<ul>
+			<li>
+				<h3><%= link_to 'Capítulo 1: Introdução ao Aust', 'docs/starting' %></h3>
+				<p>
+				Aqui você conhecerá o CMS, com detalhes de como ele funciona, razões de
+				se construir ele, entre outros. Não é apresentado código.
+				</p>
+			</li>
+			<li>
+				<h3><%= link_to 'Capítulo 2: Como instalar e usar o Aust pela primeira vez', 'docs/starting' %></h3>
+				<p>
+				O ABC do Aust, como instalar, como criar algumas estruturas e
+				</p>
+			</li>
+			<li>
+				<h3><%= link_to 'Capítulo 3: A API para iniciantes', 'docs/starting' %></h3>
+				<p>
+				O básico da API, os seus padrões, o que é JSON.
+				</p>
+			</li>
+			<li>
+				<h3><%= link_to 'Capítulo 4: Conhecendo cada módulo', 'docs/starting' %></h3>
+				<p>
+				Cada módulo possui funcionalidades distintas. Conheça cada um, para o que servem
+				e como tirar o máximo proveito deles.
+				</p>
+			</li>
+			<li>
+				<h3><%= link_to 'Capítulo 5: API avançado', 'docs/starting' %></h3>
+				<p>
+				O que acontece se precisarmos de uma busca mais elaborada.
+				</p>
+			</li>
+			<li>
+				<h3><%= link_to 'Perguntas frequentes', 'docs/screencast' %></h3>
+				<p>
+				Compilação das dúvidas mais comuns.
+				</p>
+			</li>
+		</ul>
+
+
+	</div>
+</div>
+
+<div id="collaborate" class="main_section">
+	<div class="main_section_container">
+		
+		<h2>
+			Colabore
 		</h2>
 		<p>
 			A documentação disponível até o momento:
