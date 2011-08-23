@@ -8,6 +8,8 @@ gem 'rails', '3.0.10'
 gem 'mysql2', '< 0.3'
 gem 'sqlite3'
 
+gem 'jquery-rails', '>= 1.0.12'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

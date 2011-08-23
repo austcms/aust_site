@@ -6,6 +6,7 @@ ul, li, * {
 body {
 	font-family: 'Lucida Grande', 'Arial';
 	font-size: 14px;
+	background: white;
 }
 
 ul { margin: 0 0 0 30px; }

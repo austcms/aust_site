@@ -29,7 +29,7 @@
 						<span>Design focado no cliente</span>
 					</li>
 					<li>
-						<span>Funciona normalmente em hospedagens compartilhadas (PHP 5.2+)</span>
+						<span>Funciona em hospedagens compartilhadas (PHP 5.2+)</span>
 					</li>
 				</ul>
 			</p>
@@ -42,12 +42,12 @@
 		<div class="get_aust">
 			<div class="get_aust_container">
 			<div class="news">
-				news
+				Em construção.
 			</div>
 			<div class="download">
 				<%= link_to image_tag('download_button.png'), '' %>
 				<br>
-				Beta
+				v0.3.RC1
 			</div>
 			</div>
 		</div>
@@ -296,12 +296,14 @@ sua página principal, entregando conteúdo através de uma API
 <div id="documentation" class="main_section">
 	<div class="main_section_container">
 		
+		<div class="section_header">
 		<h2>
 			Documentação
 		</h2>
 		<p>
 			A documentação disponível até o momento:
 		</p>
+		</div>
 		<ul>
 			<li>
 				<h3><%= link_to 'Capítulo 1: Introdução ao Aust', 'docs/starting' %></h3>
@@ -350,53 +352,76 @@ sua página principal, entregando conteúdo através de uma API
 <div id="collaborate" class="main_section">
 	<div class="main_section_container">
 		
+		<div class="section_header">
 		<h2>
 			Colabore
 		</h2>
 		<p>
-			A documentação disponível até o momento:
+			Ajude-nos.
 		</p>
-		<ul>
-			<li>
-				<h3><%= link_to 'Capítulo 1: Introdução ao Aust', 'docs/starting' %></h3>
-				<p>
-				Aqui você conhecerá o CMS, com detalhes de como ele funciona, razões de
-				se construir ele, entre outros. Não é apresentado código.
-				</p>
-			</li>
-			<li>
-				<h3><%= link_to 'Capítulo 2: Como instalar e usar o Aust pela primeira vez', 'docs/starting' %></h3>
-				<p>
-				O ABC do Aust, como instalar, como criar algumas estruturas e
-				</p>
-			</li>
-			<li>
-				<h3><%= link_to 'Capítulo 3: A API para iniciantes', 'docs/starting' %></h3>
-				<p>
-				O básico da API, os seus padrões, o que é JSON.
-				</p>
-			</li>
-			<li>
-				<h3><%= link_to 'Capítulo 4: Conhecendo cada módulo', 'docs/starting' %></h3>
-				<p>
-				Cada módulo possui funcionalidades distintas. Conheça cada um, para o que servem
-				e como tirar o máximo proveito deles.
-				</p>
-			</li>
-			<li>
-				<h3><%= link_to 'Capítulo 5: API avançado', 'docs/starting' %></h3>
-				<p>
-				O que acontece se precisarmos de uma busca mais elaborada.
-				</p>
-			</li>
-			<li>
-				<h3><%= link_to 'Perguntas frequentes', 'docs/screencast' %></h3>
-				<p>
-				Compilação das dúvidas mais comuns.
-				</p>
-			</li>
-		</ul>
+		</div>
 
+		<div class="items">
+			<div class="item">
+				<div class="item_container">
+					<div class="image">
+						<div class="image_container">
+							<%= image_tag 'collaborate/github.png' %>
+						</div>
+					</div>
+					<div class="text">
+						<div class="text_container">
+							<a href="https://github.com/austcms/aust" target="github">Github</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
+			<div class="item">
+				<div class="item_container">
+					<div class="image">
+						<div class="image_container">
+							<%= image_tag 'collaborate/docs.png' %>
+						</div>
+					</div>
+					<div class="text">
+						<div class="text_container">
+							<a href="http://github.com/austcms/aust" target="github">Documentação</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="item_container">
+					<div class="image">
+						<div class="image_container">
+							<%= image_tag 'collaborate/api_json.png' %>
+						</div>
+					</div>
+					<div class="text">
+						<div class="text_container">
+							<a href="https://github.com/austcms/aust/wiki/Api-specs" target="github">Especificações da API</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="item_container">
+					<div class="image">
+						<div class="image_container">
+							<%= image_tag 'collaborate/groups.png' %>
+						</div>
+					</div>
+					<div class="text">
+						<div class="text_container">
+							<a href="http://groups.google.com/group/austcms" target="github">Grupo de Discussão</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 	</div>
 </div>
