@@ -3,15 +3,15 @@ body {
 }
 
 #back_to_top_link {
-	position: fixed; top: 5px; left: 50%; background: white; padding: 5px 10px;
+	position: fixed; top: 5px; left: 50%; background: #eee;
 	display: none;
 	margin-left: 340px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
+	#back_to_top_link a { padding: 5px 10px; display: table; }
 
 #global {
 	width: 960px;
@@ -51,6 +51,7 @@ body {
 		display: table; width: 100%; text-shadow: 1px 1px white;
 		background: #fafafa;
 		padding: 15px 0 15px 0;
+		border-bottom: 1px solid #efefef;
 	}
 
 		#merchan .text { float: left; width: 370px; margin: 5px 0 0 15px; }
@@ -61,7 +62,10 @@ body {
 
 /* download */
 
-	#download { background: #f7f7f7; }
+	#download {
+		background: #f7f7f7;
+		border-bottom: 1px solid #ebebeb;
+	}
 	#download .get_aust { width: 960px; display: table; clear: both; }
 		#download .get_aust_container { margin: 0 15px; display: table; width: 930px; }
 		
@@ -93,7 +97,7 @@ body {
 
 /* features */
 
-	#features { background: #f5f5f5; }
+	#features { background: #f4f4f4; }
 		#features h2 { margin: 0 0 25px 0; text-align: center; }
 
 		#features .features_line { display: table; }
