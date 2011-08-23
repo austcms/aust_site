@@ -2,10 +2,19 @@ $(document).ready(function(){
 	$('a[scroll_to]').click(function(){
 		$.scrollTo($(this).attr('scroll_to'), 500);
 		
-		if( $(this).attr('scroll_to') != '#global' )
+		if( $(this).attr('scroll_to') != '#global' && $(this).attr('scroll_to') != '#body_tag' )
 			setTimeout(hightlightClickedLink, 250, $(this).attr('scroll_to'));
+		
 		return false;
 	});
+	
+	$(window).scroll(function () { 
+		var backLink = $('#back_to_top_link');
+		if( $(window).scrollTop() > 90 && !backLink.is(':visible') )
+			$('#back_to_top_link').fadeIn();
+		else if( $(window).scrollTop() <= 90 && backLink.is(':visible') )
+			$('#back_to_top_link').fadeOut();
+    });
 	
 });
 

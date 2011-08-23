@@ -6,7 +6,7 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body>
+<body id="body_tag">
 
 	<div id="global">
 		<div class="global_container">
@@ -17,11 +17,11 @@
 				</div>
 				<div id="navigation">
 					<ul>
-						<li><%= link_to 'Principal', root_path, { :scroll_to => '#global' } %></li>
-						<li><%= link_to 'Por quê', aust_why_path, { :scroll_to => '#features' } %></li>
-						<li><%= link_to 'Documentação', aust_why_path, { :scroll_to => '#documentation' } %></li>
-						<li><%= link_to 'Download', aust_why_path, { :scroll_to => '#merchan' } %></li>
-						<li><%= link_to 'Contato', aust_why_path, { :scroll_to => '#global' } %></li>
+						<li><%= link_to 'Principal', '#', { :scroll_to => '#global' } %></li>
+						<li><%= link_to 'Por quê', '#', { :scroll_to => '#features' } %></li>
+						<li><%= link_to 'Documentação', '#', { :scroll_to => '#documentation' } %></li>
+						<li><%= link_to 'Colabore', '#', { :scroll_to => '#collaborate' } %></li>
+						<li><%= link_to 'Contato', '#', { :scroll_to => '#global' } %></li>
 					</ul>
 				</div>
 			</div>
@@ -38,5 +38,6 @@
 		
 	</div>
 	
+	<span id="back_to_top_link"><a href="#" scroll_to="#body_tag">Voltar ao topo</a></span>
 </body>
 </html>

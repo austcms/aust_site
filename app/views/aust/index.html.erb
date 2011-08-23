@@ -39,37 +39,34 @@
 			<%= image_tag 'merchan_aust.png' %>
 		</div>
 
+	</div>
+	
+	
+</div>
+
+<div id="download" class="main_section">
+	<div class="main_section_container">
 		<div class="get_aust">
 			<div class="get_aust_container">
 			<div class="news">
 				Em construção.
 			</div>
 			<div class="download">
-				<%= link_to image_tag('download_button.png'), '' %>
+				<%= link_to image_tag('download_button.png'), '#' %>
 				<br>
 				v0.3.RC1
 			</div>
 			</div>
 		</div>
-		
 	</div>
-	
-	
 </div>
 
-<!--
-Wordpress, Joomla, Drupal, entre outros,
-possuem um painel administrativo (CMS)
-e um framework (front-end) que você precisa usar. 
-O Aust não, ele é um CMS apenas, desacoplado da
-sua página principal, entregando conteúdo através de uma API
--->
 <div id="features" class="main_section">
 	<div class="main_section_container">
 		
 		<div class="section_header">
 			<h2>
-				Vantagens
+				Porquê usar
 			</h2>
 			<p>
 				10 motivos para usar o Aust
@@ -130,7 +127,7 @@ sua página principal, entregando conteúdo através de uma API
 							<p>
 							O Aust gerencia múltiplos sites
 							em um só lugar. Ideal para hospedar seus
-							clientes num só lugar.
+							clientes num único servidor.
 							</p>
 						</div>
 					</div>
@@ -144,11 +141,13 @@ sua página principal, entregando conteúdo através de uma API
 					</div>
 					<div class="text">
 						<div class="header">
-							xxBaixe gratuitamente
+							Um CMS, literalmente
 						</div>
 						<div class="content">
 							<p>
-							xxx
+							Com Wordpress e Joomla, criar o site
+							com o framework existente é obrigatório.
+							Com o Aust não. Quer usar Python? Sem problemas.
 							</p>
 						</div>
 					</div>
@@ -211,8 +210,8 @@ sua página principal, entregando conteúdo através de uma API
 						</div>
 						<div class="content">
 							<p>
-								Não é um framework de desenvolvimento de sites. 
-								Com a API JSON, páginas podem ser criadas 
+								Por não ser obstrutivo e possuir uma
+								API JSON, os sites podem ser criados 
 								em PHP, Ruby, Python ou outros.
 							</p>
 						</div>
@@ -284,12 +283,6 @@ sua página principal, entregando conteúdo através de uma API
 
 		</div>
 		
-		<div class="features_line">
-
-
-		</div>
-
-
 	</div>
 </div>
 
@@ -301,44 +294,50 @@ sua página principal, entregando conteúdo através de uma API
 			Documentação
 		</h2>
 		<p>
-			A documentação disponível até o momento:
+			O que, como, porquê, quando, quem, o que, como...
 		</p>
 		</div>
 		<ul>
 			<li>
-				<h3><%= link_to 'Capítulo 1: Introdução ao Aust', 'docs/starting' %></h3>
+				<h3><%= link_to 'Capítulo 1: Introdução ao Aust', '#' %></h3>
 				<p>
 				Aqui você conhecerá o CMS, com detalhes de como ele funciona, razões de
 				se construir ele, entre outros. Não é apresentado código.
 				</p>
 			</li>
 			<li>
-				<h3><%= link_to 'Capítulo 2: Como instalar e usar o Aust pela primeira vez', 'docs/starting' %></h3>
+				<h3><%= link_to 'Capítulo 2: Como instalar e usar o Aust pela primeira vez', '#' %></h3>
 				<p>
 				O ABC do Aust, como instalar, como criar algumas estruturas e
 				</p>
 			</li>
 			<li>
-				<h3><%= link_to 'Capítulo 3: A API para iniciantes', 'docs/starting' %></h3>
+				<h3><%= link_to 'Capítulo 3: A API para iniciantes', '#' %></h3>
 				<p>
-				O básico da API, os seus padrões, o que é JSON.
+				O básico da API, seus padrões, o que é JSON, e mais.
 				</p>
 			</li>
 			<li>
-				<h3><%= link_to 'Capítulo 4: Conhecendo cada módulo', 'docs/starting' %></h3>
+				<h3><%= link_to 'Capítulo 4: Conhecendo cada módulo', '#' %></h3>
 				<p>
 				Cada módulo possui funcionalidades distintas. Conheça cada um, para o que servem
 				e como tirar o máximo proveito deles.
 				</p>
 			</li>
 			<li>
-				<h3><%= link_to 'Capítulo 5: API avançado', 'docs/starting' %></h3>
+				<h3><%= link_to 'Capítulo 5: API avançado', '#' %></h3>
 				<p>
 				O que acontece se precisarmos de uma busca mais elaborada.
 				</p>
 			</li>
 			<li>
-				<h3><%= link_to 'Perguntas frequentes', 'docs/screencast' %></h3>
+				<h3><%= link_to 'Capítulo 6: Desenvolvendo módulos', '#' %></h3>
+				<p>
+					Você tem uma necessidade única, então é hora de construir um módulo próprio.
+				</p>
+			</li>
+			<li>
+				<h3><%= link_to 'Perguntas frequentes', '#' %></h3>
 				<p>
 				Compilação das dúvidas mais comuns.
 				</p>
@@ -361,6 +360,7 @@ sua página principal, entregando conteúdo através de uma API
 		</p>
 		</div>
 
+		<a href="https://github.com/austcms/aust" target="github">
 		<div class="items">
 			<div class="item">
 				<div class="item_container">
@@ -371,12 +371,14 @@ sua página principal, entregando conteúdo através de uma API
 					</div>
 					<div class="text">
 						<div class="text_container">
-							<a href="https://github.com/austcms/aust" target="github">Github</a>
+							Github
 						</div>
 					</div>
 				</div>
 			</div>
+			</a>
 
+			<a href="http://github.com/austcms/aust">
 			<div class="item">
 				<div class="item_container">
 					<div class="image">
@@ -386,12 +388,14 @@ sua página principal, entregando conteúdo através de uma API
 					</div>
 					<div class="text">
 						<div class="text_container">
-							<a href="http://github.com/austcms/aust" target="github">Documentação</a>
+							Documentação
 						</div>
 					</div>
 				</div>
 			</div>
+			</a>
 
+			<a href="https://github.com/austcms/aust/wiki/Api-specs" target="github">
 			<div class="item">
 				<div class="item_container">
 					<div class="image">
@@ -401,12 +405,14 @@ sua página principal, entregando conteúdo através de uma API
 					</div>
 					<div class="text">
 						<div class="text_container">
-							<a href="https://github.com/austcms/aust/wiki/Api-specs" target="github">Especificações da API</a>
+							Especificações da API
 						</div>
 					</div>
 				</div>
 			</div>
-
+			</a>
+			
+			<a href="http://groups.google.com/group/austcms" target="group">
 			<div class="item">
 				<div class="item_container">
 					<div class="image">
@@ -416,11 +422,12 @@ sua página principal, entregando conteúdo através de uma API
 					</div>
 					<div class="text">
 						<div class="text_container">
-							<a href="http://groups.google.com/group/austcms" target="github">Grupo de Discussão</a>
+							Grupo de Discussão
 						</div>
 					</div>
 				</div>
 			</div>
+			</a>
 		</div>
 		
 	</div>
