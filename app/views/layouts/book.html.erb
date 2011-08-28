@@ -2,8 +2,9 @@
 <html>
 <head>
   <title>Aust CMS - múltiplos sites, conteúdo entregue via API JSON</title>
-  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag 'standard', 'style', 'shCore', 'shThemeDefault' %>
   <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag 'shCore', 'shBrushPhp' %>
   <%= csrf_meta_tag %>
 </head>
 <body id="body_tag">
@@ -17,10 +18,8 @@
 				</div>
 				<div id="navigation">
 					<ul>
-						<li><%= link_to 'Por quê', '#', { :scroll_to => '#features' } %></li>
-						<li><%= link_to 'Download', '#', { :scroll_to => '#download' } %></li>
-						<li><%= link_to 'Documentação', '#', { :scroll_to => '#documentation' } %></li>
-						<li><%= link_to 'Colabore', '#', { :scroll_to => '#collaborate' } %></li>
+						<li><%= link_to 'Download', root_path+'#download', { :scroll_to => '#download' } %></li>
+						<li><%= link_to 'Colabore', root_path+'#collaborate', { :scroll_to => '#collaborate' } %></li>
 						<li><%= link_to 'Siga-nos', 'http://twitter.com/austcms', { :target => 'twitter' } %></li>
 					</ul>
 				</div>
@@ -48,5 +47,8 @@
 	</div>
 	
 	<span id="back_to_top_link"><a href="#" scroll_to="#body_tag">Voltar ao topo</a></span>
+	<script type="text/javascript">
+	     SyntaxHighlighter.all()
+	</script>
 </body>
 </html>

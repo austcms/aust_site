@@ -135,30 +135,59 @@ body {
 
 /* inside pages */
 
-	.content {
+	.body_content {
 		margin: 10px;
 		display: table;
 		width: 940px;
 		clear: both;
+		font-size: 12px;
 	}
 
 /* book */
 
 	#book .chapter_title { color: #999; }
+
+	#book h2 { color: #06588c; font-size: 2em; font-weight: normal; }
+	#book h3 { font-weight: bold; }
+	#book a { text-decoration: underline; }
+	#book a:hover { text-decoration: none; }
+	
+
+	#book .img {
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding: 0;
+		margin: 0 0 15px 0;
+		font-size: 0;
+		-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+	}
+		#book .img img { margin: 0; padding: 0; }
+
+		#book .img.left { float: left; margin-right: 10px; }
+		#book .img.right { float: right; margin-left: 10px; }
+		#book .img.center { display: table; margin-left: auto; margin-right: auto; }
+	
+	.indentation { margin: 0 0 15px 0; }
+	.indent { margin: 0 0 5px 25px; }
 	
 	.side_explanation {
 		float: right;
 		display: inline;
 		background: #f2f2f2;
 		padding: 10px;
+		margin: 0 0 15px 25px;
 		width: 250px;
 		border: 1px solid #e8e8e8;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 		border-radius: 5px;
 	}
-		.side_explanation h2 { font-size: 1.2em; margin: 0 0 5px 0; }
-		.side_explanation p { font-size: 0.9em; color: #888; }
+		.side_explanation h2 { font-size: 1.2em !important; margin: 15px 0 5px 0; }
+		.side_explanation h2:first-child { margin-top: 0; }
+		.side_explanation h3 { font-size: 1.1em !important; margin: 0 0 5px 0; }
+		.side_explanation p { font-size: 1em; color: #888; margin: 0 0 5px 0; }
 		.side_explanation p:last-child { margin: 0; }
 	
 /* footer */
