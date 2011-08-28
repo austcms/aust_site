@@ -1,4 +1,24 @@
 Austsite::Application.routes.draw do
+  get "book/index"
+
+  get "book/intro"
+
+  get "book/chapter_one"
+
+  get "book/chapter_two"
+
+  get "book/chapter_three"
+
+  get "book/chapter_four"
+
+  get "book/chapter_five"
+
+  get "book/chapter_six"
+
+  get "book/chapter_seven"
+
+  get "book/chapter_nine"
+
   get "aust/index"
 
   get "aust/why"

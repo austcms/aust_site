@@ -106,7 +106,7 @@ body {
 	margin: 15px; width: 930px; display: table;
 }
 
-/* features */
+/* main page - features */
 
 	#features { background: #f4f4f4; }
 		#features h2 { margin: 0 0 25px 0; text-align: center; }
@@ -120,21 +120,50 @@ body {
 		#features .feature .text { width: 315px; margin: 0 0px 0 0; float: left; }
 		#features .feature .text .header { font-weight: bold; margin: 0 0 2px 0; color: #078DE4; }
 
-/* features */
+/* main page - features */
 	
 	#documentation h3 { margin: 0; font-weight: normal; }
 	#documentation ul { list-style: none; margin: 0 auto; margin-top: 20px; margin: 20px 10px; }
 	#documentation ul li { color: #777; }
 	
-/* collaborate */
+/* main page - collaborate */
 	
 	#collaborate .items { margin: 0 auto; display: table; }
 	#collaborate .item { text-align: left; float: left; width: 180px; }
 	#collaborate .item .item_container { text-align: center; }
 	
 
+/* inside pages */
+
+	.content {
+		margin: 10px;
+		display: table;
+		width: 940px;
+		clear: both;
+	}
+
+/* book */
+
+	#book .chapter_title { color: #999; }
+	
+	.side_explanation {
+		float: right;
+		display: inline;
+		background: #f2f2f2;
+		padding: 10px;
+		width: 250px;
+		border: 1px solid #e8e8e8;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+		.side_explanation h2 { font-size: 1.2em; margin: 0 0 5px 0; }
+		.side_explanation p { font-size: 0.9em; color: #888; }
+		.side_explanation p:last-child { margin: 0; }
+	
 /* footer */
 	
 	.footer_container { margin: 15px; text-align: center; font-size: 0.9em; color: #aaa; }
 	.footer_container a { color: #ccc; text-decoration: underline; }
 	
+
