@@ -74,35 +74,46 @@
 				continuarão.
 			</p>
 		
-			</div>
 		</div>
-		<div class="main_section internal_page">
-			<div class="main_section_container">
+	</div>
+	<div class="main_section internal_page">
+		<div class="main_section_container">
 
-			<h2>Baixando o Aust</h2>
+			<h2>Download do Aust</h2>
+			<h3>Via Git</h3>
 			<p>
-				É recomendável utilizar o Git para baixar o Aust (é mais simples e rápido).
+				Recomendo utilizar o Git para baixar o Aust porque é mais simples e rápido. 
+				Além disso, puxar a última atualização fica muito fácil.
 				Se você usa o Git,
 				vá até o diretório do seu projeto (aust_project) e digite na linha de comando:
 			</p>
 			<div class="indentation">
 				<div class="indent">
-				<strong>git clone git://github.com/austcms/aust.git</strong>
+				<strong>git clone git://github.com/austcms/aust.git admin</strong>
 				</div>
 			</div>
 			<p>
-				Se você não utiliza Git, pode baixar o .zip
+				Isto clonará o projeto diretamente do Github no diretório <strong>admin/</strong>.
+			</p>
+			<h3>Via HTTP</h3>
+			<p>
+				Se você <strong>não</strong> utiliza Git,
+				pode baixar o .zip
 				<a href="https://github.com/austcms/aust/zipball/master">aqui</a>.
 				Neste caso, crie um diretório chamado <strong>admin/</strong> dentro
 				do seu projeto e largue os arquivos lá.
 			</p>
+			<p>
+				Recomendo fortemente que você aprenda a usar o Git. Tem milhares de artigos na
+				internet falando sobre as vantagens dele.
+			</p>
 			
-			</div>
 		</div>
-		<div class="main_section internal_page">
-			<div class="main_section_container">
+	</div>
+	<div class="main_section internal_page">
+		<div class="main_section_container">
 			
-			<h2>Instalando</h2>
+			<h2>Instalação</h2>
 			<h3>Configurando um banco de dados</h3>
 			<p>
 				O primeiro passo é configurar um banco de dados para seu projeto.
@@ -149,12 +160,12 @@
 				a complexidade das atualizações.
 			</p>
 		
-			</div>
 		</div>
-		<div class="main_section internal_page">
-			<div class="main_section_container">
+	</div>
+	<div class="main_section internal_page">
+		<div class="main_section_container">
 
-			<h2>Criando primeiras estruturas</h2>
+			<h2>O ambiente</h2>
 		
 			<p>
 				Acesse o Aust no seu navegador (ex.: http://localhost/aust_project/admin).
@@ -173,87 +184,160 @@
 
 			<h3>O que é Taxonomia?</h3>
 			<p>
-				Veja a imagem abaixo.
+				O Aust utiliza a arquitetura de <em>taxonomia</em> para
+				manter tudo organizado. Veja a imagem abaixo.
 			</p>
 			<div class="img center"><%= image_tag 'book/pt_br_book_taxonomy_structures_categories.jpg', { } %></div>
-			<p>
-				Pense em <strong>Estruturas</strong> como sendo uma seção de um site.
-				Na imagem, a estrutura Notícias
-				contém todos os textos desta seção. A estrutura Professores possui
-				o cadastro de professores, e assim por diante. A seguir vamos explicar como os
-				módulos compõem estruturas.
-			</p>
-			<p>
-				Várias estruturas juntas formam um <strong>Site</strong>. É desta forma que o Aust
-				permite que você gerencie múltiplos sites num mesmo CMS.
-			</p>
-			<p>
-				<strong>Categorias</strong> são divisões das estruturas. Num site de notícias,
-				vamos ter várias categorias (Economia, Política, Esportes, por exemplo). Entretanto,
-				você não usa categorias em um cadastro de professores ou alunos.
-			</p>
-			<p>
-				Estes 3 conceitos são o coração do Aust.
-			</p>
+			
+			<div class="columns">
+				<div class="column one_third">
+					<div class="column_container">
+						<h4>Estruturas</h4>
+						<p>
+							<strong>Estruturas</strong> são como seções de um site.
+							Na imagem acima, a estrutura Notícias
+							contém todos os textos desta seção, assim como Professores possui
+							o cadastro de professores.
+						</p>
+					</div>
+				</div>
+				<div class="column one_third">
+					<div class="column_container">
+						<h4>Site</h4>
+						<p>
+							Várias estruturas formam um <strong>Site</strong>. Assim o Aust
+							permite gerenciar vários sites.
+							<br>
+							<strong><em>Notícia:</em></strong> na versão atual a API não possui suporte
+							para isto.
+						</p>
+					</div>
+				</div>
+				<div class="column one_third">
+					<div class="column_container">
+						<h4>Categorias</h4>
+						<p>
+							<strong>Categorias</strong> são divisões das estruturas. Temos categorias
+							de notícias (Economia, Política, por exemplo), mas
+							você não usa categorias em um cadastro de professores.
+						</p>
+					</div>
+				</div>
+			</div>
 		
+		</div>
+	</div>
+	<div class="main_section internal_page">
+		<div class="main_section_container">
+
 			<h3>
 				Como estruturas utilizam módulos?
 			</h3>
 			<p>
-				O Aust possui vários módulos por padrão. Um deles chama-se Textual. Ele possui os
-				formulários prontos para Estruturas de texto.
+				Vamos direto a um <em>exemplo prático:</em> as estruturas
+				Notícias, Artigos e Comunicados são diferentes,
+				mas possuem algumas coisas em comum. Todas possuem título, texto e categoria.
+				O módulo <strong>Textual</strong> foi feito para este tipo de estrutura.
+				É deste módulo que o Aust usa os formulários e sabe o que fazer
+				com cada estrutura.
 			</p>
 			<p>
-				<em>Um exemplo prático:</em> Notícias, Artigos, Comunicados, são diferentes,
-				mas possuem algumas coisas em comum. Todos possuem título, texto, categoria,
-				e assim por diante. O módulo Textual possui formulários com
-				estas informações prontas.
+				Entretanto, se você pretende fazer algo mais complexo,
+				como um cadastro de pessoas ou produtos, onde precisa
+				de campos customizáveis e flexíveis, o módulo <strong>Flexible Fields</strong>
+				é o ideal.
+				No momento que você cria uma estrutura, você especifica qual é o módulo 
+				que dará formato a ela.
 			</p>
 			<p>
-				Se você pretende fazer um cadastro de pessoas ou produtos, onde precisa
-				de campos customizáveis, o módulo Flexible Fields é o ideal. Se precisa
-				de upload de arquivos, use o módulo Files. Images para imagens e banners,
-				ou PhotoGallery para galeria de fotos.
+				Temos um capítulo especial explicando cada o módulo. Apenas para adiantar,
+				o Aust possui o <strong>Files</strong> para
+				upload de arquivos, <strong>Images</strong> para imagens e banners,
+				<strong>PhotoGallery</strong> para galeria de fotos,
+				<strong>Agenda</strong> para calendários, entre outros. Se quiser,
+				você pode criar novos módulos à vontade.
+			</p>
+			<p>
+				Chega de conceitos, vamos à prática.
+			</p>
+		</div>
+	</div>
+	<div class="main_section internal_page">
+		<div class="main_section_container">
+
+			<div class="side_explanation">
+				<h2>Dica</h2>
+				<p>
+					O Aust possui alguns pontos de interrogação distribuídos pela interface.
+					Quando você precisar de auxílio em algo, basta clicar (não sairá da página atual).
+				</p>
+			</div>
+		
+			<h2>
+				Criando estruturas para um sistema de notícias
+			</h2>
+
+			<p>
+				Vamos criar um sistema real para facilitar o aprendizado,
+				um sistema de notícias em menos de 1 minuto
+				(claro, acredito que você é um <em>expert</em> no mouse).
+			</p>
+
+			<h3>Passo 1</h3>
+			<p>
+				Acesse Configurar Módulos no rodapé. 
+			</p>
+			<div class="img center"><%= image_tag 'book/book_install_structures.jpg', { :class => 'center' } %></div>
+			<p>
+				Módulos precisam ser instalados. À direita, clique em <strong>Instalar agora</strong> ao lado de
+				<strong>Flexible Fields</strong>. Vamos usar ele.
+			</p>
+			<h3>Passo 2</h3>
+			<p>
+				Na esquerda, em Instalar Estrutura, selecione
+				o módulo <strong>Flexible Fields</strong> e no campo Nome da Estrutura escreva Notícias.
+			</p>
+			<h3>Passo 3</h3>
+			<p>
+				Na tela de instalação, no campo <strong>Quantos campos terá seu cadastro?</strong>,
+				selecione 2 e clique em Enviar.
+			</p>
+			<p>
+				Na próxima tela:
+			</p>
+			<ul>
+				<li>
+					na <strong>linha 1</strong>, escreva <strong>Título</strong> em Nome do Campo;
+				</li>
+				<li>
+					na <strong>linha 2</strong>, escreva <strong>Texto</strong> e escolha
+					<strong>Texto Grande</strong> em Tipo de Campo;
+				</li>
+				<li>
+					Clique em <strong>Enviar</strong>.
+				</li>
+			</ul>
+			<p>
+				<em>Voilá</em>, sua estrutura está criada.
+			</p>
+			<h3>Passo 4</h3>
+			<p>
+				Agora, vá até a aba <strong>Gerenciar Conteúdo</strong> e você verá a
+				estrutura Notícias. Você pode criar novos textos facilmente.
+			</p>
+			<h3>Onde o Aust realmente brilha</h3>
+			<p>
+				Volte à tela de configuração de módulos e em
+				Estruturas Instaladas, clique em Configurar ao lado de Notícias.
+				Na nova tela, na seção Configurações de Campos,
+				selecione <strong>Ativar editor de texto rico</strong> e clique em Salvar.
+				Volte ao formulário para ver o resultado.		
 			</p>
 
 		</div>
 	</div>
 	<div class="main_section internal_page">
 		<div class="main_section_container">
-
-			<h2>
-				Criando estruturas para um sistema de notícias
-			</h2>
-		
-			<p>
-				Vamos criar um sistema real para facilitar o aprendizado,
-				um sistema de notícias em menos de 1 minuto.
-			</p>
-
-			<h3>Passo 1</h3>
-			<p>
-				Acesse Configurar Módulos no rodapé. No módulo Flexible Fields, à direita, clique em Instalar agora.
-			</p>
-			<h3>Passo 2</h3>
-			<p>
-				Na esquerda, em Instalar Estrutura, selecione o Módulo Flexible Fields e no campo Nome da Estrutura escreva Notícias.
-			</p>
-			<h3>Passo 3</h3>
-			<p>
-				Na tela de instalação, no campo Quantos campos terá seu cadastro?, selecione 2 e clique em Enviar. Na próxima tela, na linha 1, escreva Título em Nome do Campo. Na linha 2, escreve Texto e escolha Texto Grande em Tipo de Campo. Clique em Enviar.
-			</p>
-			<h3>Passo 4</h3>
-			<p>
-				Agora, vá até a aba Gerenciar Contéudo e você verá a estrutura Notícias. Você pode criar novos textos editá-los.
-			</p>
-			<p>
-				Onde o Aust realmente brilha: volte à tela de configuração de módulos e em Estruturas Instaladas, clique em Configurar ao lado de Notícias. Na nova tela, na seção Configurações de Campos, selecione Ativar editor de texto rico e clique em Salvar. Volte ao formulário para ver o resultado.		
-			</p>
-
-			</div>
-		</div>
-		<div class="main_section internal_page">
-			<div class="main_section_container">
 
 			<h2>Integrando com sua página principal</h2>
 
