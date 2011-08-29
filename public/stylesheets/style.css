@@ -39,7 +39,7 @@ body {
 		float: right;
 		padding: 30px;
 	}
-		#navigation ul { list-style: none; }
+		#navigation ul { list-style: none; margin: 0; }
 		#navigation ul li { display: inline; margin: 0 0 0 20px; }
 		#navigation ul li a { text-decoration: none; }
 		#navigation ul li a:hover { text-decoration: underline; }
@@ -55,7 +55,7 @@ body {
 	}
 
 		#merchan .text { float: left; width: 370px; margin: 5px 0 0 15px; }
-			#merchan .text li { color: #06588c; }
+			#merchan .text li { color: #06588c; margin: 0 0 15px 0; line-height: 20px; }
 			#merchan .text li span { color: #222; }
 
 		#merchan .image { float: right; width: 555px; margin: 10px 0 0 15px; }
@@ -102,6 +102,8 @@ body {
 	}
 	.main_section .section_header p { font-size: 0.9em; }
 
+	.main_section p:last-child { margin: 0; }
+
 .main_section .main_section_container {
 	margin: 15px; width: 930px; display: table;
 }
@@ -133,14 +135,21 @@ body {
 	#collaborate .item .item_container { text-align: center; }
 	
 
-/* inside pages */
+/* internal pages */
 
-	.body_content {
-		margin: 10px;
+	.internal_page {
+		/* margin: 0px; */
 		display: table;
 		width: 940px;
 		clear: both;
 		font-size: 12px;
+	}
+
+	.main_section.internal_page {
+		padding: 0;
+		background: #f6f6f6;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #e9e9e9;
 	}
 
 /* book */
@@ -197,4 +206,3 @@ body {
 	.footer_container { margin: 15px; text-align: center; font-size: 0.9em; color: #aaa; }
 	.footer_container a { color: #ccc; text-decoration: underline; }
 	
-

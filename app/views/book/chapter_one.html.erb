@@ -1,225 +1,262 @@
 <div id="book">
-	<div class="body_content">
+	<div class="main_section internal_page">
+		<div class="main_section_container">
 
-		<div class="chapter_title">Capítulo 1</div>
-		<h1>Instalando e usando o Aust</h1>
+
+			<div class="chapter_title">Capítulo 1</div>
+			<h1>Instalando e usando o Aust</h1>
 		
-		<div class="side_explanation">
-			<h2>Dica</h2>
-			<p>
-				O Aust é instalado no servidor assim como Wordpress ou Joomla é. 
-				Entretanto, a página principal pode ser desenvolvida livremente,
-				com ou sem uso de framework.
-			</p>
-			<%= render :partial => 'book_chapters' %>
+			<div class="side_explanation">
+				<h2>Dica</h2>
+				<p>
+					O Aust é instalado no servidor assim como Wordpress ou Joomla é. 
+					Entretanto, a página principal pode ser desenvolvida livremente,
+					com ou sem uso de framework.
+				</p>
+				<%= render :partial => 'book_chapters' %>
 			
-			<h2>Dica</h2>
+			</div>
+
 			<p>
-				O Aust é instalado no servidor assim como Wordpress ou Joomla é. 
-				Entretanto, a página principal pode ser desenvolvida livremente,
-				com ou sem uso de framework.
+				Neste capítulo, criaremos um site de notícias. Nossa caminhada será a seguinte:
 			</p>
-		</div>
+			<ul>
+				<li>Uma pequena introdução sobre a arquitetura do Aust</li>
+				<li>Download & instalação do Aust</li>
+				<li>Um pouco sobre o importante conceito de taxonomia e módulos</li>
+				<li>
+					Criaremos estruturas para um site de notícias &
+					integraremos o Aust com nossa página principal
+				</li>
+			</ul>
+
+			<h3>
+				Requisitos do servidor
+			</h3>
+			<p>
+				Antes de começarmos, você precisa de um servidor com PHP 5.2+, com PDO.
+				No Windows, você precisa ativar o PDO se está usando WAMP ou outro
+				servidor enlatado.
+			</p>
+			<p>
+				Você também precisa do MySQL.
+			</p>
+			
+			<h2>O seu site e o Aust</h2>
+			
+			<p>
+				Supondo que seu projeto está num diretório chamado
+				<strong>aust_project</strong> e você construiu sua página 
+				em <em>index.php</em>, a estrutura de arquivos
+				será a seguinte após instalar o Aust :
+			</p>
+			<div class="indentation">
+				<div class="indent">
+					- <strong>aust_project/</strong></div>
+				<div class="indent"><div class="indent">
+						- <em>admin/</em>: onde os arquivos do Aust estão.</div></div>
+				<div class="indent"><div class="indent">
+						- <em>aust_lib.php</em>: este é o arquivo que conecta sua página
+						ao Aust.
+				</div></div>
+				<div class="indent"><div class="indent">
+						- <em>index.php</em>
+				</div></div>
+			</div>
 		
-		<h2>Como funciona a integração do Aust com seu site</h2>
-		<p>
-			Supondo que seu projeto está num diretório chamado
-			<strong>aust_project</strong> e você construiu sua página 
-			num arquivo <em>index.php</em>, após instalar o Aust a estrutura de arquivos
-			será a seguinte:
-		</p>
-		<div class="indentation">
-			<div class="indent">
-				- <strong>aust_project/</strong></div>
-			<div class="indent"><div class="indent">
-					- <em>admin/</em>: onde os arquivos do Aust estão.</div></div>
-			<div class="indent"><div class="indent">
-					- <em>aust_lib.php</em>: este é o arquivo que conecta sua página
-					ao Aust.
-			</div></div>
-			<div class="indent"><div class="indent">
-					- <em>index.php</em>
-			</div></div>
-		</div>
+			<p>
+				O arquivo <strong>aust_lib.php</strong> possui funções que conectam o Aust
+				ao seu site em PHP.
+			</p>
+			<p>
+				Se você usar um framework MVC, a estrutura de pastas mudará,
+				mas <strong>admin/</strong> e <strong>aust_lib.php</strong>
+				continuarão.
+			</p>
 		
-		<p>
-			O arquivo <strong>aust_lib.php</strong> possui funções que conectam o Aust
-			ao seu site em PHP.
-		</p>
-		<p>
-			Se você usar um framework MVC, a estrutura de pastas mudará,
-			mas <strong>admin/</strong> e <strong>aust_lib.php</strong>
-			continuarão.
-		</p>
-		
-		<h3>
-			Requisitos do servidor
-		</h3>
-		<p>
-			Antes de começarmos, você precisa de um servidor com PHP 5.2+, com PDO.
-			No Windows, você precisa ativar o PDO se está usando WAMP ou outro
-			servidor enlatado.
-		</p>
-		<p>
-			Você também precisa do MySQL.
-		</p>
-		
-		<h2>Baixando o Aust</h2>
-		<p>
-			É recomendável utilizar o Git para baixar o Aust (é mais simples e rápido).
-			Se você usa o Git,
-			vá até o diretório do seu projeto (aust_project) e digite na linha de comando:
-		</p>
-		<div class="indentation">
-			<div class="indent">
-			<strong>git clone git://github.com/austcms/aust.git</strong>
 			</div>
 		</div>
-		<p>
-			Se você não utiliza Git, pode baixar o .zip
-			<a href="https://github.com/austcms/aust/zipball/master">aqui</a>.
-			Neste caso, crie um diretório chamado <strong>admin/</strong> dentro
-			do seu projeto e largue os arquivos lá.
-		</p>
-		<h2>Instalando</h2>
-		<h3>Configurando um banco de dados</h3>
-		<p>
-			O primeiro passo é configurar um banco de dados para seu projeto.
-			Através do PHPMyAdmin ou outro de sua preferência, crie um
-			(chamado <em>aust_project</em>, por exemplo)
-			usando UTF-8 como charset.
-		</p>
-		<p>
-			No Aust, crie um arquivo em config/database.php. Copie o conteúdo do arquivo config/database.sample.php
-			(possui um modelo de configuração) para este novo arquivo.
-			Agora basta você configurar sua conexão. No campo database, insira
-			o nome do banco que você criou.
-		</p>
-		
-		<h3>Instalando o Aust</h3>
-		<p>
-			Abra o Aust no seu navegador. Supondo que na pasta do seu servidor, o Aust está em
-			aust_project/admin/, digite <strong>http://localhost/aust_project/admin</strong>.
-		</p>
-		<div class="img left">
-			<%= image_tag 'book/book_install.jpg', { } %>
+		<div class="main_section internal_page">
+			<div class="main_section_container">
+
+			<h2>Baixando o Aust</h2>
+			<p>
+				É recomendável utilizar o Git para baixar o Aust (é mais simples e rápido).
+				Se você usa o Git,
+				vá até o diretório do seu projeto (aust_project) e digite na linha de comando:
+			</p>
+			<div class="indentation">
+				<div class="indent">
+				<strong>git clone git://github.com/austcms/aust.git</strong>
+				</div>
+			</div>
+			<p>
+				Se você não utiliza Git, pode baixar o .zip
+				<a href="https://github.com/austcms/aust/zipball/master">aqui</a>.
+				Neste caso, crie um diretório chamado <strong>admin/</strong> dentro
+				do seu projeto e largue os arquivos lá.
+			</p>
+			
+			</div>
 		</div>
-		<p>
-			Na primeira vez que o Aust é rodado, ele instala todas as tabelas necessárias e
-			mostra um painel de instalação. Neste painel, preencha as suas
-			informações como administrador.
-		</p>
-		<p>
-			Feito isto, basta seguir em diante até chegar à tela de login e entrar no Aust.
-		</p>
+		<div class="main_section internal_page">
+			<div class="main_section_container">
+			
+			<h2>Instalando</h2>
+			<h3>Configurando um banco de dados</h3>
+			<p>
+				O primeiro passo é configurar um banco de dados para seu projeto.
+				Através do PHPMyAdmin ou outro de sua preferência, crie um
+				(chamado <em>aust_project</em>, por exemplo)
+				usando UTF-8 como charset.
+			</p>
+			<p>
+				No Aust, crie um arquivo em config/database.php. Copie o conteúdo do arquivo config/database.sample.php
+				(possui um modelo de configuração) para este novo arquivo.
+				Agora basta você configurar sua conexão. No campo database, insira
+				o nome do banco que você criou.
+			</p>
 		
-		<h3>Alguns detalhes sobre instalações automáticas</h3>
-		<p>
-			Toda vez que você baixar uma atualização do Aust, as novas tabelas 
-			necessárias serão criadas automaticamente.
-		</p>
-		<p>
-			Experimente: após instalar o Aust, exclua uma tabela do banco de dados
-			(<em>taxonomy</em>, por exemplo) e atualize seu navegador. Voltando ao
-			banco de dados, você verá que <em>taxonomy</em> está lá novamente.
-		</p>
-		<p>
-			O Aust esforça-se em manter o sistema com integridade, retirando
-			a complexidade das atualizações.
-		</p>
+			<h3>Instalando o Aust</h3>
+			<p>
+				Abra o Aust no seu navegador. Supondo que na pasta do seu servidor, o Aust está em
+				aust_project/admin/, digite <strong>http://localhost/aust_project/admin</strong>.
+			</p>
+			<div class="img left">
+				<%= image_tag 'book/book_install.jpg', { } %>
+			</div>
+			<p>
+				Na primeira vez que o Aust é rodado, ele instala todas as tabelas necessárias e
+				mostra um painel de instalação. Neste painel, preencha as suas
+				informações como administrador.
+			</p>
+			<p>
+				Feito isto, basta seguir em diante até chegar à tela de login e entrar no Aust.
+			</p>
 		
+			<h3>Alguns detalhes sobre instalações automáticas</h3>
+			<p>
+				Toda vez que você baixar uma atualização do Aust, as novas tabelas 
+				necessárias serão criadas automaticamente.
+			</p>
+			<p>
+				Experimente: após instalar o Aust, exclua uma tabela do banco de dados
+				(<em>taxonomy</em>, por exemplo) e atualize seu navegador. Voltando ao
+				banco de dados, você verá que <em>taxonomy</em> está lá novamente.
+			</p>
+			<p>
+				O Aust esforça-se em manter o sistema com integridade, retirando
+				a complexidade das atualizações.
+			</p>
+		
+			</div>
+		</div>
+		<div class="main_section internal_page">
+			<div class="main_section_container">
 
-		<h2>Criando primeiras estruturas</h2>
+			<h2>Criando primeiras estruturas</h2>
 		
-		<p>
-			Acesse o Aust no seu navegador (ex.: http://localhost/aust_project/admin).
-		</p>
-		<p>
-			Quando você faz login como desenvolvedor, no rodapé do site aparecem links
-			vermelho.
-		</p>
-		<div class="img center"><%= image_tag 'book/book_install_structures.jpg', { :class => 'center' } %></div>
+			<p>
+				Acesse o Aust no seu navegador (ex.: http://localhost/aust_project/admin).
+			</p>
+			<p>
+				Quando você faz login como desenvolvedor, no rodapé do site aparecem links
+				vermelho.
+			</p>
+			<div class="img center"><%= image_tag 'book/book_install_structures.jpg', { :class => 'center' } %></div>
 		
-		<p>
-			Estes links não aparecem para usuários comuns.
-			Antes de entrarmos neles, você precisa entender o que é Taxonomia
-			e como os Módulos funcionam.
-		</p>
+			<p>
+				Estes links não aparecem para usuários comuns.
+				Antes de entrarmos neles, você precisa entender o que é Taxonomia
+				e como os Módulos funcionam.
+			</p>
 
-		<h3>O que é Taxonomia?</h3>
-		<p>
-			Veja a imagem abaixo.
-		</p>
-		<div class="img center"><%= image_tag 'book/pt_br_book_taxonomy_structures_categories.jpg', { } %></div>
-		<p>
-			Pense em <strong>Estruturas</strong> como sendo uma seção de um site.
-			Na imagem, a estrutura Notícias
-			contém todos os textos desta seção. A estrutura Professores possui
-			o cadastro de professores, e assim por diante. A seguir vamos explicar como os
-			módulos compõem estruturas.
-		</p>
-		<p>
-			Várias estruturas juntas formam um <strong>Site</strong>. É desta forma que o Aust
-			permite que você gerencie múltiplos sites num mesmo CMS.
-		</p>
-		<p>
-			<strong>Categorias</strong> são divisões das estruturas. Num site de notícias,
-			vamos ter várias categorias (Economia, Política, Esportes, por exemplo). Entretanto,
-			você não usa categorias em um cadastro de professores ou alunos.
-		</p>
-		<p>
-			Estes 3 conceitos são o coração do Aust.
-		</p>
+			<h3>O que é Taxonomia?</h3>
+			<p>
+				Veja a imagem abaixo.
+			</p>
+			<div class="img center"><%= image_tag 'book/pt_br_book_taxonomy_structures_categories.jpg', { } %></div>
+			<p>
+				Pense em <strong>Estruturas</strong> como sendo uma seção de um site.
+				Na imagem, a estrutura Notícias
+				contém todos os textos desta seção. A estrutura Professores possui
+				o cadastro de professores, e assim por diante. A seguir vamos explicar como os
+				módulos compõem estruturas.
+			</p>
+			<p>
+				Várias estruturas juntas formam um <strong>Site</strong>. É desta forma que o Aust
+				permite que você gerencie múltiplos sites num mesmo CMS.
+			</p>
+			<p>
+				<strong>Categorias</strong> são divisões das estruturas. Num site de notícias,
+				vamos ter várias categorias (Economia, Política, Esportes, por exemplo). Entretanto,
+				você não usa categorias em um cadastro de professores ou alunos.
+			</p>
+			<p>
+				Estes 3 conceitos são o coração do Aust.
+			</p>
 		
-		<h3>
-			Como estruturas utilizam módulos?
-		</h3>
-		<p>
-			O Aust possui vários módulos por padrão. Um deles chama-se Textual. Ele possui os
-			formulários prontos para Estruturas de texto.
-		</p>
-		<p>
-			<em>Um exemplo prático:</em> Notícias, Artigos, Comunicados, são diferentes,
-			mas possuem algumas coisas em comum. Todos possuem título, texto, categoria,
-			e assim por diante. O módulo Textual possui formulários com
-			estas informações prontas.
-		</p>
-		<p>
-			Se você pretende fazer um cadastro de pessoas ou produtos, onde precisa
-			de campos customizáveis, o módulo Flexible Fields é o ideal. Se precisa
-			de upload de arquivos, use o módulo Files. Images para imagens e banners,
-			ou PhotoGallery para galeria de fotos.
-		</p>
-		<h2>
-			Criando estruturas para um sistema de notícias
-		</h2>
+			<h3>
+				Como estruturas utilizam módulos?
+			</h3>
+			<p>
+				O Aust possui vários módulos por padrão. Um deles chama-se Textual. Ele possui os
+				formulários prontos para Estruturas de texto.
+			</p>
+			<p>
+				<em>Um exemplo prático:</em> Notícias, Artigos, Comunicados, são diferentes,
+				mas possuem algumas coisas em comum. Todos possuem título, texto, categoria,
+				e assim por diante. O módulo Textual possui formulários com
+				estas informações prontas.
+			</p>
+			<p>
+				Se você pretende fazer um cadastro de pessoas ou produtos, onde precisa
+				de campos customizáveis, o módulo Flexible Fields é o ideal. Se precisa
+				de upload de arquivos, use o módulo Files. Images para imagens e banners,
+				ou PhotoGallery para galeria de fotos.
+			</p>
+
+		</div>
+	</div>
+	<div class="main_section internal_page">
+		<div class="main_section_container">
+
+			<h2>
+				Criando estruturas para um sistema de notícias
+			</h2>
 		
-		<p>
-			Vamos criar um sistema real para facilitar o aprendizado,
-			um sistema de notícias em menos de 1 minuto.
-		</p>
+			<p>
+				Vamos criar um sistema real para facilitar o aprendizado,
+				um sistema de notícias em menos de 1 minuto.
+			</p>
 
-		<h3>Passo 1</h3>
-		<p>
-			Acesse Configurar Módulos no rodapé. No módulo Flexible Fields, à direita, clique em Instalar agora.
-		</p>
-		<h3>Passo 2</h3>
-		<p>
-			Na esquerda, em Instalar Estrutura, selecione o Módulo Flexible Fields e no campo Nome da Estrutura escreva Notícias.
-		</p>
-		<h3>Passo 3</h3>
-		<p>
-			Na tela de instalação, no campo Quantos campos terá seu cadastro?, selecione 2 e clique em Enviar. Na próxima tela, na linha 1, escreva Título em Nome do Campo. Na linha 2, escreve Texto e escolha Texto Grande em Tipo de Campo. Clique em Enviar.
-		</p>
-		<h3>Passo 4</h3>
-		<p>
-			Agora, vá até a aba Gerenciar Contéudo e você verá a estrutura Notícias. Você pode criar novos textos editá-los.
-		</p>
-		<p>
-			Onde o Aust realmente brilha: volte à tela de configuração de módulos e em Estruturas Instaladas, clique em Configurar ao lado de Notícias. Na nova tela, na seção Configurações de Campos, selecione Ativar editor de texto rico e clique em Salvar. Volte ao formulário para ver o resultado.		
-		</p>
+			<h3>Passo 1</h3>
+			<p>
+				Acesse Configurar Módulos no rodapé. No módulo Flexible Fields, à direita, clique em Instalar agora.
+			</p>
+			<h3>Passo 2</h3>
+			<p>
+				Na esquerda, em Instalar Estrutura, selecione o Módulo Flexible Fields e no campo Nome da Estrutura escreva Notícias.
+			</p>
+			<h3>Passo 3</h3>
+			<p>
+				Na tela de instalação, no campo Quantos campos terá seu cadastro?, selecione 2 e clique em Enviar. Na próxima tela, na linha 1, escreva Título em Nome do Campo. Na linha 2, escreve Texto e escolha Texto Grande em Tipo de Campo. Clique em Enviar.
+			</p>
+			<h3>Passo 4</h3>
+			<p>
+				Agora, vá até a aba Gerenciar Contéudo e você verá a estrutura Notícias. Você pode criar novos textos editá-los.
+			</p>
+			<p>
+				Onde o Aust realmente brilha: volte à tela de configuração de módulos e em Estruturas Instaladas, clique em Configurar ao lado de Notícias. Na nova tela, na seção Configurações de Campos, selecione Ativar editor de texto rico e clique em Salvar. Volte ao formulário para ver o resultado.		
+			</p>
 
-		<h2>Integrando com sua página principal</h2>
+			</div>
+		</div>
+		<div class="main_section internal_page">
+			<div class="main_section_container">
 
+			<h2>Integrando com sua página principal</h2>
+
+		</div>
 	</div>
 </div>
